@@ -2,7 +2,7 @@
 
 echo "Welcome to regex"
 
-E_MAIL_ID="^[a-zA-Z0-9]+([.+-]*[a-zA-Z0-9]+)*@[0-9a-zA-Z]+([.][a-zA-Z]{2,})([.+-]*[a-zA-Z0-9]+)*$"
+E_MAIL_ID="^[0-9a-zA-Z]+[.+-]+([.+-]*[a-zA-Z0-9]+)*@[0-9a-zA-Z]+([.][a-zA-Z]{2,})([.+-]*[a-zA-Z0-9]+)*$"
 
 echo "Enter the E-mail ID"
 
